@@ -1,10 +1,14 @@
 {
-    "success": true,
-    "terms": "https://currencylayer.com/terms",
-    "privacy": "https://currencylayer.com/privacy",
-    "timestamp": 1698005643,
-    "source": "USD",
-    "quotes": {
-        "USDPLN": 4.206025
+    "2023-10-2": {
+        "USDEUR": 0.94427,
+        "JPYPLN": 0.028087,
+        "PLNEUR": 0.224342,
+        "PLNJPY": 35.604151,
+        "PLNUSD": 0.237589,
+        "PLNCNY": 1.738416
+    },
+    "2023-10-23": {
+        "PLNCNY": 1.738416,
+        "PLNGBP": 0.195389
     }
 }
