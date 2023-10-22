@@ -18,7 +18,7 @@ class App:
 
     def get_ratio(self):
         obtainer = RatioObtainer(base=self.base_currency, target=self.target_currency)
-        #if obtainer.was_ratio_saved_today():
-        #    obtainer.fetch_ratio()
-        #return obtainer.get_matched_ratio_value()
-        return obtainer.fetch_ratio()
+        if not obtainer.was_ratio_saved_today():
+            return obtainer.fetch_ratio() #obtainer.get_matched_ratio_value()
+        else:
+            return obtainer.fetch_ratio()

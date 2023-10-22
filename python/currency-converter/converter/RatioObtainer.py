@@ -65,9 +65,10 @@ class RatioObtainer:
         if self.was_ratio_saved_today():
             pass
         else:
-            file = open('../ratios.json', 'w+')
-            file.write(json.dumps(ratio.json(), indent=4))
-            file.close()
+            pass
+        file = open('../ratios.json', 'w+')
+        file.write(json.dumps(ratio.json(), indent=4))
+        file.close()
 
         # TODO
         # Should save or update exchange rate for given pair in json file

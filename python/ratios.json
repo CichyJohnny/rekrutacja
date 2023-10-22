@@ -1,10 +1,10 @@
 {
-  "success":true,
-  "terms":"https:\/\/currencylayer.com\/terms",
-  "privacy":"https:\/\/currencylayer.com\/privacy",
-  "timestamp":1697998143,
-  "source":"USD",
-  "quotes":{
-    "USDEUR":0.94325
-  }
+    "success": true,
+    "terms": "https://currencylayer.com/terms",
+    "privacy": "https://currencylayer.com/privacy",
+    "timestamp": 1698005643,
+    "source": "USD",
+    "quotes": {
+        "USDPLN": 4.206025
+    }
 }
