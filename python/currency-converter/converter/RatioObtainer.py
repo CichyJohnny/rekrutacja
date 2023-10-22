@@ -10,8 +10,6 @@ class RatioObtainer:
         self.target = target
 
     def was_ratio_saved_today(self):
-        # TODO
-
         if os.path.exists('../ratios.json'):
             file = open('../ratios.json', 'r')
             data = json.load(file)
@@ -34,6 +32,7 @@ class RatioObtainer:
 
             return False
 
+        # TODO
         # This function checks if given ratio was saved today and if the file with ratios is created at all
         # should return false when file doesn't exist or if there's no today's exchange rate for given values at all
         # should return true otherwise
@@ -42,32 +41,38 @@ class RatioObtainer:
         pass
 
     def fetch_ratio(self):
+        base = str(self.base)
+        target = str(self.target)
+        url_path = 'http://api.exchangerate.host/live?access_key=cd007cacde18395212e8ab232cb5f260&source={}&currencies={}&format=1' \
+            .format(base, target)
+        response = requests.get(url_path)
+        self.save_ratio(response)
+
+        quotes = response.json().get('quotes')
+        ratio_value = quotes.get(base + target)
+
+        print("Quotes:", quotes)
+        print("Ratio Value:", ratio_value)
+
+        return float(ratio_value)
+
         # TODO
-
-        response = requests.get('http://api.exchangerate.host/live?access_key=1cae1afae99e25e160df804ec9f149a1&format=1')
-
-        return RatioObtainer.save_ratio(response)
-
         # This function calls API for today's exchange ratio
         # Should ask API for today's exchange ratio with given base and target currency
         # and call save_ratio method to save it
-        pass
 
     def save_ratio(self, ratio):
-        # TODO
-
-        if RatioObtainer.was_ratio_saved_today():
+        if self.was_ratio_saved_today():
             pass
         else:
             file = open('../ratios.json', 'w+')
             file.write(json.dumps(ratio.json(), indent=4))
             file.close()
 
-
+        # TODO
         # Should save or update exchange rate for given pair in json file
         # takes ratio as argument
         # example file structure is shipped in project's directory, yours can differ (as long as it works)
-        pass
 
     def get_matched_ratio_value(self):
         # TODO
