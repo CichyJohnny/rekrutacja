@@ -1,15 +1,13 @@
 # Rekrutacja zima 2023
 
-Repozytorium z paczkami zadań na rekrutację 2023. 
+Repozytorium z rozwiązaniami zadań na rekrutację 2023. 
 
-## Zasady
+## Zadania
 
-Kandydaci na członków koła mają do wyboru kilka pakietów zadań. Każdy z pakietów jest umieszczony w osobnym katalogu na tym repozytorium. Wymagamy, aby kandydat wykonał zadania z przynajmniej jednego, dowolnego pakietu. 
+Rozwiązałem 2 z 3 zadań w Pythonie według wymagań. Rozwiązania są wewnątrz repozytorium na branch: Master
 
-Zadania są ułożone tak, aby były niezwykle proste do rozwiązania. Wszystko czego wymagamy od kandydata to determinacja i za pomocą tych zadań chcemy sprawdzić, czy kandydat takową posiada. Zadania można rozwiązać w parę chwil korzystając z Google. 
-
-Powodzenia!
+Wraz z udostępnionymi zadaniami, zgłaszam moją kandydaturę do AKAI w semestrze zimowym 2023 roku
 
 ## Dostarczenie rozwiązań
 
-Rozwiązania prosimy przesyłać poprzez wypełnienie formularza dostępnego pod adresem https://forms.gle/AnXKm6bMcAqi88gi9.
+Rozwiązanie przesłane poprzez wypełnienie formularza dostępnego pod adresem https://forms.gle/AnXKm6bMcAqi88gi9.
