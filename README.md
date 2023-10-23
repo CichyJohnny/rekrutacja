@@ -1,4 +1,8 @@
-# Rekrutacja zima 2023
+# Jan Cichy, Informatyka, 1. semestr, studia stacjonarne
+
+Rekrutacja do kluba naukowego AKAI na PUT. Semestr zimowy 2023
+
+## Rekrutacja zima 2023
 
 Repozytorium z rozwiązaniami zadań na rekrutację 2023. 
 
