@@ -1,6 +1,6 @@
 # Completed for AKAI
 
-Based on given template, done with PyCharm and Spyder.
+Based on given template, made with PyCharm and Spyder.
 Most changes are located in  `converter/RatioObtainer.py`
 
 ## Currency converter
