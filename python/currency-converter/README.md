@@ -1,4 +1,10 @@
-# Currency converter
+# Completed for AKAI
+
+Based on given template, done with PyCharm and Spyder.
+Most changes are located in  `converter/RatioObtainer.py`
+
+## Currency converter
+
 
 In this task your job is to develop simple software, with which user will be able to see current exchange rate of given
 currencies.
