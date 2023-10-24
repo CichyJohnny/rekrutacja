@@ -16,24 +16,53 @@ class App:
 
     def print_data(self):
         if self.tasks:
+            print('\nMożliwe akcje : add "zadanie",\tremove "id zadania",\tdone "id zadania",\tundone "id zadania",\n'
+                  '\t\tload,\tsave,\texit\n')
             print("ID \t IS_DONE \t NAME")
             for index, task in enumerate(self.tasks):
                 print(str(index) + "\t" + str(task['done']) + "\t\t" + task['content'])
 
     def get_input(self):
         given_input = input()
+        while not given_input:
+            print('Proszę wprowadzić komendę')
+            given_input = input()
         given_arguments = given_input.split()
         self.current_command = given_arguments[0]
         self.command_args = given_arguments[1:]
 
     def execute_command(self):
         if self.current_command == "done":
+            while not self.command_args:
+                print('Proszę podać ID')
+                try:
+                    ID = int(input())
+                    self.command_args.append(ID)
+                except ValueError:
+                    print('Prosze podać liczbę')
+
             self.tasks[int(self.command_args[0])]['done'] = True
 
         if self.current_command == "undone":
+            while not self.command_args:
+                print('Proszę podać ID')
+                try:
+                    ID = int(input())
+                    self.command_args.append(ID)
+                except ValueError:
+                    print('Prosze podać liczbę')
+
             self.tasks[int(self.command_args[0])]['done'] = False
 
         if self.current_command == "remove":
+            while not self.command_args:
+                print('Proszę podać ID')
+                try:
+                    ID = int(input())
+                    self.command_args.append(ID)
+                except ValueError:
+                    print('Prosze podać liczbę')
+
             del self.tasks[int(self.command_args[0])]
 
         if self.current_command == "add":

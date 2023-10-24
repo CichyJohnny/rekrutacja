@@ -1,4 +1,4 @@
-import json
+import json, codecs
 
 
 class Exporter:
@@ -7,12 +7,9 @@ class Exporter:
         self.data_file = 'taski.json'
 
     def save_tasks(self, tasks):
+        updated_tasks = tasks
 
-
-
-        with open(self.data_file, 'w') as file:
-            updated_tasks = tasks
-
+        with codecs.open(self.data_file, 'w', encoding='utf-8') as file:
 
             json.dump(updated_tasks, file, indent=4)
 

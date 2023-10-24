@@ -1,4 +1,4 @@
-import json, os
+import json, os, codecs
 
 
 class Importer:
@@ -13,17 +13,21 @@ class Importer:
         full_path = os.path.abspath(os.path.join(current_directory, self.data_file))
 
         try:
-            with open(self.data_file, 'r') as file:
-                taski = json.load(file)
+
+            with codecs.open(self.data_file, 'r', encoding='utf-8') as file:
+                loaded_file = json.load(file)
+                self.taski = loaded_file
+                print(self.taski)
+
         except FileNotFoundError:
+
             print('File does not exist', full_path)
-        self.taski = taski
+
 
         # TODO odczytaj plik i zdekoduj treść tutaj
 
     def get_tasks(self):
 
-        print('mmmm', self.taski)
-
         return self.taski
+
         # TODO zwróć zdekodowane taski tutaj

@@ -1,22 +1,18 @@
 [
     {
-        "content": "pokroi\u00c4\u2021 mi\u00c4\u2122so",
+        "content": "pokroi\u0107 mi\u0119so",
         "done": false
     },
     {
-        "content": "przebra\u00c4\u2021 spodnie",
+        "content": "przebra\u0107 spodnie",
         "done": false
     },
     {
-        "content": "nakarmi\u00c4\u2021 psa",
+        "content": "nakarmi\u0107 psa",
         "done": true
     },
     {
-        "content": "pies",
-        "done": false
-    },
-    {
-        "content": "umycie",
+        "content": "ma\u0107",
         "done": false
     }
 ]
