@@ -1,14 +1,22 @@
 [
-  {
-    "content": "pokroić mięso",
-    "done": false
-  },
-  {
-    "content": "przebrać spodnie",
-    "done": false
-  },
-  {
-    "content": "nakarmić psa",
-    "done": true
-  }
+    {
+        "content": "pokroi\u00c4\u2021 mi\u00c4\u2122so",
+        "done": false
+    },
+    {
+        "content": "przebra\u00c4\u2021 spodnie",
+        "done": false
+    },
+    {
+        "content": "nakarmi\u00c4\u2021 psa",
+        "done": true
+    },
+    {
+        "content": "pies",
+        "done": false
+    },
+    {
+        "content": "umycie",
+        "done": false
+    }
 ]
