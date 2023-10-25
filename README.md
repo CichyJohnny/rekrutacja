@@ -1,6 +1,6 @@
 # Jan Cichy, Informatyka, 1. semestr, studia stacjonarne
 
-Rekrutacja do kluba naukowego AKAI na PUT. Semestr zimowy 2023
+Rekrutacja do klubu naukowego AKAI na PUT. Semestr zimowy 2023
 
 ## Rekrutacja zima 2023
 
@@ -8,7 +8,7 @@ Repozytorium z rozwiązaniami zadań na rekrutację 2023.
 
 ## Zadania
 
-Rozwiązałem 3 z 3 zadań w Pythonie według wymagań. Rozwiązania są wewnątrz repozytorium na branch: Master
+Rozwiązałem 3 z 3 zadań w Pythonie według wymagań. Rozwiązania są wewnątrz repozytorium na gałęzi: Master
 
 Wraz z udostępnionymi zadaniami, zgłaszam moją kandydaturę do AKAI w semestrze zimowym 2023 roku
 
