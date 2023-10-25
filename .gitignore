@@ -4,6 +4,6 @@
 .idea/modules.xml
 .idea/rekrutacja.iml
 .idea/vcs.xml
-.idea\.gitignore
+.idea/.gitignore
 python/ratios.json
 python/ratios.json
