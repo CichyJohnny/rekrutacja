@@ -9,6 +9,8 @@ class Importer:
 
     def read_tasks(self):
 
+        # This function is called to load 'taski.json' file
+
         current_directory = os.getcwd()
         full_path = os.path.abspath(os.path.join(current_directory, self.data_file))
 
@@ -23,11 +25,18 @@ class Importer:
 
             print('File does not exist', full_path)
 
+        # This function load file using utf-8 encoding to handle non-ASCII characters
+        # File is loaded into self.taski and then passed to get_tasks inside App.py
+        # Except FileNotFoundError handles error if 'taski.json' not found
 
-        # TODO odczytaj plik i zdekoduj treść tutaj
+        # TODO, completed
+        # odczytaj plik i zdekoduj treść tutaj
+
 
     def get_tasks(self):
+        # This function called simply returns self.taski assigned earlier by read_tasks
 
         return self.taski
 
-        # TODO zwróć zdekodowane taski tutaj
+        # TODO, completed
+        # Zwróć zdekodowane taski tutaj
