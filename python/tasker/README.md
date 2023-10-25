@@ -1,5 +1,5 @@
 # Wykonane dla AKAI
-Na basie gotowego już kodu, wykonane z użyciem PyCharm'a. Wiekszość zmian jest obecnych w 'src/json/Exporter.py' oraz 'src/json/Importer.py'
+Na basie gotowego już kodu, wykonane z użyciem PyCharm'a. Wiekszość zmian jest obecnych w `src/json/Exporter.py` oraz `src/json/Importer.py`
 
 ## Parsowanie JSONa
 
