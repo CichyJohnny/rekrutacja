@@ -3,6 +3,8 @@
 Based on given template, made with PyCharm and Spyder.
 Most changes are located in  `converter/RatioObtainer.py`
 
+This was the hardest to-do task, and my first attempt to api and .json files. I hope it went well.
+
 ## Currency converter
 
 
