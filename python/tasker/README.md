@@ -1,4 +1,7 @@
-# Parsowanie JSONa
+# Wykonane dla AKAI
+Na basie gotowego już kodu, wykonane z użyciem PyCharm'a. Wiekszość zmian jest obecnych w 'src/json/Exporter.py' oraz 'src/json/Importer.py'
+
+## Parsowanie JSONa
 
 ## Opis
 JSON jest często używanym formatem wymiany danych pomiędzy systemami informatycznymi. Będziesz miał z nim mnóstwo
