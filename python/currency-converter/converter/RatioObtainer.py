@@ -9,7 +9,7 @@ class RatioObtainer:
     def __init__(self, base, target):
         self.base = base
         self.target = target
-        self.data_file = '../ratios.json'
+        self.data_file = 'ratios.json'
         self.ratio_data = self.load_ratio_data()
 
 

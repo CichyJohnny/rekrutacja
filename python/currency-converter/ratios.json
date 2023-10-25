@@ -1,14 +1,6 @@
 {
-    "success": true,
-    "terms": "https://currencylayer.com/terms",
-    "privacy": "https://currencylayer.com/privacy",
-    "timestamp": 1697999583,
-    "source": "USD",
-    "quotes": {
-        "USDEUR": 0.94325
-    },
-    "2023-10-23": {
-        "USDEUR": 0.94422,
-        "JPYPLN": 0.028084
+    "2023-10-25": {
+        "EURJPY": 158.567084,
+        "EURPLN": 4.482553
     }
 }
