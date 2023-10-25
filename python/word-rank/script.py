@@ -43,6 +43,8 @@ words.sort()
 # Then we create list of all words from sentences, lowered and splitted by space
 # Finally list is sorted alphabetically
 
+print('POSITION \t WORD \t - \t NUMBER OF REPETITIONS')
+
 for i in range(3):
 
     count = list(map(lambda x: words.count(x), words))
@@ -51,7 +53,7 @@ for i in range(3):
 
     words = list(filter(lambda x: x != max_word, words))
 
-    print(f'{i+1}.\t {max_word} \t - \t {repetition}')
+    print(f'\t{i+1}.\t\t {max_word} \t - \t\t\t {repetition}')
 
 # In every loop we map a count list, as a list of repetition of every word in words list
 # Then we find first word (in alphabetical order) that appeared the most
