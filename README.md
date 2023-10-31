@@ -1,6 +1,7 @@
 # Jan Cichy, Informatyka, 1. semestr, studia stacjonarne
 
 Rekrutacja do klubu naukowego AKAI na PUT. Semestr zimowy 2023
+E-mail konaktowy: 04cichy@gmail.com
 
 ## Rekrutacja zima 2023
 
